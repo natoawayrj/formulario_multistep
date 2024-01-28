@@ -1,0 +1,92 @@
+.app{
+    padding: 2rem;
+}
+
+/* cabeçalho */
+
+.header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+ /* formulario */
+
+ .form-container{
+    width: 600px ;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: rgba( 100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+.form-container form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+ .inputs-container{
+    min-height: 280px;
+ }
+
+ .form-control{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom:2rem ;
+ }
+
+ label{
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #777;
+ }
+
+ input, 
+ textarea{
+    border: none;
+    padding: .6rem;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
+
+ textarea{
+    height: 120px;
+ }
+
+ /* Actions */
+
+ .actions{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+ }
+
+ .actions button{
+    font-size: .9rem;
+    padding: .5rem 1rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    border: none;
+    transition: .3s;
+ }
+
+ .actions button:hover{
+    background-color: #7076f4;
+    color: #fff;
+ }
+
+ .actions button span{
+   transition: 0.1s;
+ }
+
+ .actions button span:hover{
+   color: #fff;
+ }
